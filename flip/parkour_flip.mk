@@ -21,3 +21,5 @@ PRODUCT_COPY_FILES += \
 
 # Seta o diretório de overlays
 PRODUCT_PACKAGE_OVERLAYS = device/parkour/flip/overlay
+PRODUCT_PACKAGES += \
+	localiza
