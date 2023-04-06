@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Escolha do Produto:"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/grupo"
+        android:layout_width="189dp"
+        android:layout_height="244dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.055"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+        <CheckBox
+            android:id="@+id/cbarroz"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Slackline (R$ 350)" />
+
+        <CheckBox
+            android:id="@+id/cbcarne"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Patins (R$ 1230)" />
+
+        <CheckBox
+            android:id="@+id/cbpao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sk8 (R$ 2200)" />
+
+        <CheckBox
+            android:id="@+id/cbleite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Energéticos (R$ 9.50)" />
+
+        <CheckBox
+            android:id="@+id/cbovos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Barras Cereal (R$ 7.50)" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/bttotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Total"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.041"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/grupo" />
+
+    <TextView
+        android:id="@+id/tvvalor"
+        android:layout_width="186dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.413"
+        app:layout_constraintStart_toEndOf="@+id/bttotal"
+        app:layout_constraintTop_toBottomOf="@+id/grupo" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:text="Aplicar desconto?"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.036"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bttotal" />
+
+    <RadioGroup
+        android:id="@+id/grupo2"
+        android:layout_width="128dp"
+        android:layout_height="201dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.035"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3">
+
+        <RadioButton
+            android:id="@+id/rbdesconto"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="Sem desconto" />
+
+        <RadioButton
+            android:id="@+id/rbcinco"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="5%" />
+
+        <RadioButton
+            android:id="@+id/rbdez"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="10%" />
+
+        <RadioButton
+            android:id="@+id/rbquinze"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="15%" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Valor pago pelo cliente:"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/grupo2" />
+
+    <EditText
+        android:id="@+id/edtvalor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Insira o valor"
+        android:inputType="number"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.064"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <Button
+        android:id="@+id/btpagar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Efetuar pagamento"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtvalor" />
+</androidx.constraintlayout.widget.ConstraintLayout>
