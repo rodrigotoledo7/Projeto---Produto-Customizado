@@ -23,4 +23,5 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGE_OVERLAYS = device/parkour/flip/overlay
 PRODUCT_PACKAGES += \
 	AppCompras \
-	WIPBasics
+	WIPBasics \
+	RolParkour
