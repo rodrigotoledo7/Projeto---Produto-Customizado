@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Localizações"
+        android:textSize="30dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="#eeeeee"
+        android:padding="5dp"
+        android:layout_marginTop="10dp"
+        android:elevation="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_1_lat"
+                android:text="Lat:"
+                android:layout_weight="1"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_1_lon"
+                android:text="Long:"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_1_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Endereço:" />
+
+        <TextView
+            android:id="@+id/tv_1_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Atualizado em:" />
+
+        <Button
+            android:id="@+id/btn_last"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:elevation="10dp"
+            android:text="Última localização" />
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="#eeeeee"
+        android:padding="5dp"
+        android:layout_marginTop="10dp"
+        android:elevation="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_2_lat"
+                android:text="Lat:"
+                android:layout_weight="1"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_2_lon"
+                android:text="Long:"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_2_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Endereço:" />
+
+        <TextView
+            android:id="@+id/tv_2_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Atualizado em:" />
+
+        <Button
+            android:id="@+id/btn_current"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:text="Localização Atual" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="#eeeeee"
+        android:padding="5dp"
+        android:layout_marginTop="10dp"
+        android:elevation="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_3_lat"
+                android:text="Lat:"
+                android:layout_weight="1"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_3_lon"
+                android:text="Long:"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_3_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Endereço:" />
+
+        <TextView
+            android:id="@+id/tv_3_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Atualizado em:" />
+
+        <Button
+            android:id="@+id/btn_update_start"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:text="Atualizar Localização" />
+
+        <Button
+            android:id="@+id/btn_update_stop"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:text="Parar Atualização" />
+
+    </LinearLayout>
+
+</LinearLayout>
