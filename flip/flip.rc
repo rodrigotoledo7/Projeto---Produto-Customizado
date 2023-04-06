@@ -1,0 +1,4 @@
+on early-init
+	export PARKOUR "Parkour Flip! v1.0"
+on property:dev.bootcomplete=1
+	exec /system/bin/log p d -t "Parkour" "Parkour Flip! Inicializado!"
