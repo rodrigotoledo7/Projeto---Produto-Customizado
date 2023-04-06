@@ -1,4 +1,4 @@
-# Projeto---Produto-Customizado
+# Projeto - Produto Customizado
 Crie um novo produto customizado no AOSP para um público específico. 
 Após a seleção do perfil do produto, você deverá adicionar recursos 
 relacionados à sua escolha, tais como:
