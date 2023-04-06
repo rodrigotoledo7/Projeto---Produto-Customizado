@@ -17,7 +17,9 @@ PRODUCT_VENDOR_PROPERTIES += ro.vendor.parkour.hardware=ModelB
 PRODUCT_COPY_FILES += \
 	device/parkour/flip/parkour.txt:system/etc/parkour.txt \
 	device/parkour/flip/flip.rc:vendor/etc/init/flip.rc \
-	device/parkour/flip/bootanimation.zip:product/media/bootanimation.zip
-	
+	device/parkour/flip/bootanimation.zip:product/media/bootanimation.zip \
+	device/parkour/flip/default_wallpaper.png:product/media/wallpapers/default_wallpaper.png
+
+
 # Seta o diretório de overlays
 PRODUCT_PACKAGE_OVERLAYS = device/parkour/flip/overlay
