@@ -12,3 +12,6 @@ relacionados à sua escolha, tais como:
 O produto deverá ser desenvolvido em grupo composto por 3 membros. 
 A entrega deverá ser feita por meio de relatório de execução de atividades, 
 apresentando as etapas realizadas e os resultados obtidos. 
+
+
+Projeto de cunho didático, totalmente sem fins lucrativos, todas as imagens que foram utilizadas foram encontradas de forma pública e não adicionamos e não removemos nenhum crédito das mesmas.
