@@ -14,4 +14,4 @@ A entrega deverá ser feita por meio de relatório de execução de atividades,
 apresentando as etapas realizadas e os resultados obtidos. 
 
 
-Projeto de cunho didático, totalmente sem fins lucrativos, todas as imagens que foram utilizadas foram encontradas de forma pública e não adicionamo e não removemos nenhum crédito das mesmas.
+Projeto de cunho didático, totalmente sem fins lucrativos, todas as imagens que foram utilizadas foram encontradas de forma pública e não adicionamos e não removemos nenhum crédito das mesmas.
