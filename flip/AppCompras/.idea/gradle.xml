@@ -11,8 +11,8 @@
         <option name="gradleJvm" value="11" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/app" />
+            <option value="/media/aosp/device/parkour/flip/AppCompras" />
+            <option value="/media/aosp/device/parkour/flip/AppCompras/app" />
           </set>
         </option>
       </GradleProjectSettings>
